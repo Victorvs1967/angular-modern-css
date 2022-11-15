@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'angular-modern-css';
+
+  colors = [
+    'blue',
+    'aquamarine',
+    'yellow',
+    'DarkOrchid',
+    'GreenYellow',
+    'DeepPink'
+  ];
 }
